@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <!-- <div class="theme"> -->
+        <img src="img/moon.png" id="icon" class="theme" />
+        <!-- </div> -->
+
+        <input class="disp" type="text" id="iptext" placeholder="0" />
+
+        <button onclick="clr()">AC</button>
+        <button onclick="del()">C</button>
+        <button onclick="calculate('%')">&percnt;</button>
+        <!-- % -->
+        <button onclick="calculate('/')">&divide;</button>
+        <!-- / -->
+
+        <button onclick="calculate(7)">7</button>
+        <button onclick="calculate(8)">8</button>
+        <button onclick="calculate(9)">9</button>
+        <button onclick="calculate('*')">&times;</button>
+        <!-- * -->
+
+        <button onclick="calculate(4)">4</button>
+        <button onclick="calculate(5)">5</button>
+        <button onclick="calculate(6)">6</button>
+        <button onclick="calculate('-')">&minus;</button>
+        <!-- (-) -->
+
+        <button onclick="calculate(1)">1</button>
+        <button onclick="calculate(2)">2</button>
+        <button onclick="calculate(3)">3</button>
+        <button onclick="calculate('+')">&plus;</button>
+        <!-- + -->
+
+        <button onclick="calculate('.')">.</button>
+        <button onclick="calculate(0)">0</button>
+        <button onclick="Result()" class="eql">&equals;</button>
+        <!-- = -->
+      </div>
+    </div>
+
+    <script src="clc.js"></script>
+  </body>
+</html>
