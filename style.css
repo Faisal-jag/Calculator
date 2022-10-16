@@ -83,11 +83,26 @@ img:hover{
     border-radius: 42px;
     box-shadow:  3px 3px 10px var(--primary-color),
       3px 3px 10px var(--secondary-color);
+
+      grid-column-start: 2;
+      grid-column-end: 3;
       
 }
 .eql:hover{
     color: var(--primary-color);
     background-color: green;
+}
+/* #ac{
+    grid-row-start: 3;
+    grid-row-end: 5;
+} */
+#plus{
+    grid-row-start: 6;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    height: 125px;
+    border-radius: 42px;
 }
 
 
