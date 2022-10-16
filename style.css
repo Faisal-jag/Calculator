@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+    background-color: #ecf0f3;
+    
+}
+
+:root {
+    --primary-color: rgb(249, 242, 230);
+    --secondary-color: black;
+}
+.dark-theme{
+    --primary-color: rgb(13, 13, 32);;
+    --secondary-color: rgb(249, 242, 230);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+.calculator{
+    box-shadow: 3px 3px 10px var(--secondary-color),
+    3px 3px 10px var(--secondary-color);
+    border-radius: 30px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4,77px);
+
+    background-color: var(--primary-color);
+
+}
+
+.disp{
+    grid-column: span 4;
+    height: 70px;
+    width: 310px;
+    box-shadow: inset -3px -3px 10px var(--primary-color),
+    inset  3px 3px 10px var(--secondary-color);
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 30px;
+    color: darkgray;
+    text-align: end;
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+    font-size: 42px;
+
+
+}
+
+button{
+    box-shadow:  3px 3px 10px var(--primary-color),
+      3px 3px 10px var(--secondary-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--secondary-color);
+    
+}
+button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+img:hover{
+    filter: invert(100%);
+}
+
+.eql{
+    width: 125px;
+    border-radius: 42px;
+    /* color: white; */
+    /* background-color: green; */
+    box-shadow:  3px 3px 10px var(--primary-color),
+      3px 3px 10px var(--secondary-color);
+      
+}
+.eql:hover{
+    color: var(--primary-color);
+    background-color: green;
+}
+
+
+.theme{
+    grid-column: span 4;
+    background-color: black;
+}
+#icon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+}
