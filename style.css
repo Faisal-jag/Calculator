@@ -81,8 +81,6 @@ img:hover{
 .eql{
     width: 125px;
     border-radius: 42px;
-    /* color: white; */
-    /* background-color: green; */
     box-shadow:  3px 3px 10px var(--primary-color),
       3px 3px 10px var(--secondary-color);
       
