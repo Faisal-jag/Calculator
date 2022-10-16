@@ -92,10 +92,7 @@ img:hover{
     color: var(--primary-color);
     background-color: green;
 }
-/* #ac{
-    grid-row-start: 3;
-    grid-row-end: 5;
-} */
+
 #plus{
     grid-row-start: 6;
     grid-row-end: 8;
