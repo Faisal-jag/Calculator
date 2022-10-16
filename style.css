@@ -102,10 +102,7 @@ img:hover{
     border-radius: 42px;
 }
 
-#lbr{
-    /* grid-column-start: 1;
-    grid-column-end: ; */
-}
+
 
 .theme{
     grid-column: span 4;
