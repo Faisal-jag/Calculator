@@ -84,8 +84,8 @@ img:hover{
     box-shadow:  3px 3px 10px var(--primary-color),
       3px 3px 10px var(--secondary-color);
 
-      grid-column-start: 2;
-      grid-column-end: 3;
+      /* grid-column-start: 2;
+      grid-column-end: 3; */
       
 }
 .eql:hover{
@@ -102,6 +102,10 @@ img:hover{
     border-radius: 42px;
 }
 
+#lbr{
+    /* grid-column-start: 1;
+    grid-column-end: ; */
+}
 
 .theme{
     grid-column: span 4;
