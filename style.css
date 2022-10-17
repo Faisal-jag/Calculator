@@ -43,10 +43,10 @@
     width: 310px;
     box-shadow: inset -3px -3px 10px var(--primary-color),
     inset  3px 3px 10px var(--secondary-color);
-    background-color: #ecf0f3;
+    background-color: #979b9eab;
     border: none;
     border-radius: 30px;
-    color: darkgray;
+    color: var(--secondary-color);
     text-align: end;
     margin: 10px 0px 10px 0px;
     padding: 20px;
@@ -101,7 +101,9 @@ img:hover{
     height: 125px;
     border-radius: 42px;
 }
-
+#plus:hover{
+    background-color: rgb(35, 142, 236);
+}
 
 
 .theme{
